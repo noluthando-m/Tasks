@@ -1,0 +1,10 @@
+ASK the user to enter two numbers, X and Y
+READ X and Y
+
+CALCULATE the sum: S = X + Y
+CALCULATE the average: A = S / 2
+CALCULATE the product: P = X * Y
+
+PRINT "The sum is: ", S
+PRINT "The average is: ", A
+PRINT "The product is: ", P
