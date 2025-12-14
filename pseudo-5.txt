@@ -8,3 +8,4 @@ CALCULATE the product: P = X * Y
 PRINT "The sum is: ", S
 PRINT "The average is: ", A
 PRINT "The product is: ", P
+
