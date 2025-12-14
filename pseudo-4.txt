@@ -1,0 +1,32 @@
+CREATE an empty list called groceries
+CREATE an empty list called bought_items
+
+    ASK user to enter a grocery item (type "done" when finished)
+    READ item
+
+    IF item = "done" THEN
+        BREAK
+    ENDIF
+
+    ADD item to groceries
+
+    ASK user to enter an item they have already bought (type "done" when finished)
+    READ bought_item
+
+    IF bought_item = "done" THEN
+        BREAK
+    ENDIF
+
+    ADD bought_item to bought_items
+
+CREATE a list called remaining_items
+FOR each item in groceries
+    IF item is NOT in bought_items THEN
+        ADD item to remaining_items
+
+
+SORT remaining_items in alphabetical order
+
+PRINT "Items still to buy:"
+FOR each item in remaining_items
+

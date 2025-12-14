@@ -1,0 +1,14 @@
+Start by assuming the largest number is very small
+    largestNumber ← 0
+Keep asking the user for numbers until they enter 0
+   
+        PRINT "Please enter a positive number (enter 0 to finish):"
+        READ userNumber
+
+        IF userNumber > largestNumber THEN
+            largestNumber ← userNumber
+        END IF
+
+    UNTIL userNumber = 0
+
+    PRINT "The biggest number you entered is: ", largestNumber

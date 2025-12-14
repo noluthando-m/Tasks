@@ -1,0 +1,21 @@
+SET total = 0
+SET count = 0
+
+WHILE True
+    ASK the user to enter a number (type 0 to finish)
+    READ number
+
+    IF number = 0 THEN
+        BREAK
+    ENDIF
+
+    total = total + number
+    count = count + 1
+END WHILE
+
+IF count > 0 THEN
+    average = total / count
+    PRINT "The average of the numbers you entered is ", average
+ELSE
+    PRINT "You didn't enter any numbers."
+ENDIF
